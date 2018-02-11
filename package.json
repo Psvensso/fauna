@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^22.2.2",
-    "typescript": "^2.7.1"
+    "jest": "22.2.2",
+    "typescript": "2.7.1"
   },
   "dependencies": {
-    "@types/jest": "^22.1.2",
-    "@types/node": "^9.4.4"
+    "@types/jest": "22.1.2",
+    "@types/node": "9.4.4"
   },
   "jest": {
     "moduleFileExtensions": [
