@@ -1,0 +1,96 @@
+{
+    "questions": {
+        "01": {
+          "tags": [ "tree" ],
+          "text": "Is it a tree?"
+        },
+        "2": {
+          "tags": [ "tree" ],
+          "text": "Does it have pines?"
+        },
+        "3": {
+          "tags": [ "tree" ],
+          "text": "Does it have needles?"
+        },
+        "4": {
+          "tags": [ "tree" ],
+          "text": "Does it have thick bark?"
+        }, 
+        "5": {
+          "tags": [ "tree" ],
+          "text": "Does it have brown stem?"
+        }, 
+        "6": {
+          "tags": [ "tree" ],
+          "text": "Does it have white stem?"
+        },
+        "7": {
+          "tags": [ "tree" ],
+          "text": "Does it have nuts?"
+        },
+        "8": {
+          "tags": [ "tree" ],
+          "text": "Does it have graybrown stem?"
+        },
+        "9": {
+          "tags": [ "tree" ],
+          "text": "Does it have leafs?"
+        },
+        "10": {
+          "tags": [ "tree" ],
+          "text": "Does it have 'flaky' bark?"
+        },
+        "11": {
+          "tags": [ "tree" ],
+          "text": "Does it have a very thick stem?"
+        },
+        "12": {
+          "tags": [ "tree" ],
+          "text": "Does the leaves have edges like a saw?"
+        },
+        "13": {
+          "tags": [ "tree" ],
+          "text": "Does it have dark spots on its stem?"
+        }, 
+        "14": {
+          "tags": [ "tree" ],
+          "text": "Does it have good sources of water?"
+        }, 
+        "15": {
+          "tags": [ "tree" ],
+          "text": "Does it have small pines?"
+        }, 
+        "16": {
+          "tags": [ "tree" ],
+          "text": "Does it have long hanging seed pods?"
+        }, 
+        "17": {
+          "tags": [ "tree" ],
+          "text": "Does it have berries?"
+        } 
+      },
+      "answers": [
+        {
+          "target_id": "0",
+          "user": "sdpUHFVIaTM0iYDWlUBeF6wMsIi1",
+          "answers": [
+            [ "01", 4 ],
+            [ "2", -4 ],
+            [ "3", -4 ],
+            [ "4", 2 ],
+            [ "5", -2 ],
+            [ "6", 4 ],
+            [ "7", 0 ],
+            [ "8", -4 ],
+            [ "9", 4 ],
+            [ "10", 3 ],
+            [ "11", 1 ],
+            [ "12", 4 ],
+            [ "13", 4 ],
+            [ "15", 0 ],
+            [ "16", 3 ],
+            [ "17", -4 ]
+          ]
+        }
+      ]
+}
