@@ -6,17 +6,23 @@ export type Opinion = [string, AnswerValue];
 export type AnswerValue = -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4;
 export type QuestionRank = [string, number];
 
+/**
+ * 
+ */
+
 export class NeuralNetwork {
-  private weightsHash: TargetWeightHash;
+  public weightsHash: TargetWeightHash;
   constructor(weightsHash: TargetWeight[]) {
     this.weightsHash = {};
     for (let i = 0; i < weightsHash.length; i++) {
       this.addTargetObject(weightsHash[i]);
     }
   }
+
   public addTargetObject(targetWeight: TargetWeight) {
     this.weightsHash[targetWeight.id] = targetWeight;
   }
+
   /**
    * Adds weight to the answers for that object
    * @param correctTargetObjectId
@@ -69,6 +75,7 @@ export class NeuralNetwork {
         margins[id] = (margins[id] || 0) + adjustmentMargin;
       }
     }
+
     return Object.keys(margins)
       .map(questionId => {
         const y: QuestionRank = [questionId, margins[questionId]];
