@@ -6,10 +6,6 @@ export type Opinion = [string, AnswerValue];
 export type AnswerValue = -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4;
 export type QuestionRank = [string, number];
 
-/**
- * 
- */
-
 export class NeuralNetwork {
   public weightsHash: TargetWeightHash;
   constructor(weightsHash: TargetWeight[]) {
