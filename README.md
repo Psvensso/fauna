@@ -28,7 +28,7 @@ Now the best question to answer next is the question that splits the remaining o
 So when ranking the questions a list of questions come back with their rank values.
 
 ##### Ranking a question, example: 
-"Is it a tree?"
+Question: "Is it a tree?"
 If half of our remaining list of objects are trees and the other half are clearly not its a good question to ask.
 
 The ***half*** is the important part, the question that are closest to half (e.g. has most disagreement) are the best question to ask.
