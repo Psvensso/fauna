@@ -1,4 +1,4 @@
-﻿# Common
+﻿Common code used in Fauna
 
 ## Goals
 The goal of the "game" is to best guess the target object the player is looking for. We do that by asking a set of questions about the object and once we are somewhat sure we present our guesses to the user.  
