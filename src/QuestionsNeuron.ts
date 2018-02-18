@@ -37,7 +37,7 @@ export class QuestionsNeuron {
         const guesses: Weight[] = [];
         const targetObjectKeys = Object.keys(this.targetsHash);
         for (let i = 0; i < targetObjectKeys.length; i++) {
-            const { score, debugObj } = ScoreTarget(answers, this.targetsHash[targetObjectKeys[i]]);
+            const { score } = ScoreTarget(answers, this.targetsHash[targetObjectKeys[i]]);
             guesses.push([targetObjectKeys[i], score]);
         }
         return guesses;
